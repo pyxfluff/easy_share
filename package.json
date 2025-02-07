@@ -1,14 +1,22 @@
 {
-  "name": "easy_share",
-  "module": "frontend/index.js",
-  "type": "module",
-  "devDependencies": {
-    "@types/bun": "latest"
-  },
-  "peerDependencies": {
-    "typescript": "^5.0.0"
-  },
-  "dependencies": {
-    "express": "^4.21.2"
-  }
+    "name": "easy_share",
+    "description": "A program to share files, links, images, and more.",
+    "author": {
+        "name": "pyxfluff",
+        "email": "git@notpyx.me"
+    },
+    "module": "frontend/index.js",
+    "type": "module",
+    "devDependencies": {
+        "@types/bun": "latest"
+    },
+    "peerDependencies": {
+        "typescript": "^5.0.0"
+    },
+    "dependencies": {
+        "body-parser": "^1.20.3",
+        "express": "^4.21.2",
+        "lowdb": "^7.0.1",
+        "nanoid": "^5.0.9"
+    }
 }
