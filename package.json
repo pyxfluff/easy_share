@@ -1,0 +1,11 @@
+{
+  "name": "easy_share",
+  "module": "frontend/index.js",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
