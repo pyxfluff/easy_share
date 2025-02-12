@@ -1,5 +1,9 @@
 # ES files
 backend/files
+data.json
+
+bun.lock
+bun.lockb
 
 # Bun template
 
